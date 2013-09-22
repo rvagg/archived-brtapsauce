@@ -1,0 +1,37 @@
+{
+  "name": "brtapsauce",
+  "version": "0.0.0",
+  "description": "Browserify TAP test runner for SauceLabs",
+  "main": "brtapsauce.js",
+  "bin": {
+    "brtapsauce-local": "brtapsauce-local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/brtapsauce.git"
+  },
+  "authors": [
+    "Rod Vagg <r@va.gg> (https://github.com/rvagg)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvagg/brtapsauce/issues"
+  },
+  "dependencies": {
+    "serve-script": "*",
+    "sauce-tap-runner": "*",
+    "sauce-connect-launcher": "git+https://github.com/rvagg/sauce-connect-launcher.git#patch-1",
+    "wd-tap": "git+https://github.com/rvagg/wd-tap.git#patch-1",
+    "request": "~2.27.0",
+    "xtend": "~2.1.1"
+  },
+  "scripts": {
+    "install": "rm -rf ./node_modules/sauce-tap-runner/node_modules/sauce-connect-launcher; rm -rf ./node_modules/sauce-tap-runner/node_modules/wd-tap-runner/node_modules/wd-tap"
+  },
+  "keywords": [
+    "saucelabs",
+    "tap",
+    "test",
+    "browserify"
+  ]
+}
