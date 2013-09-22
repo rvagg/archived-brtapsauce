@@ -46,7 +46,7 @@ function brtapsauce (options, callback) {
 
   function run (cap, callback) {
     console.log('Running', cap.name)
-    tests.run(src, cap, options || {}, function(err, results) {
+    tests.run(src, cap, options.options || {}, function(err, results) {
       if (err)
         return callback(err)
 
