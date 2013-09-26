@@ -21,7 +21,7 @@
     "serve-script": "*",
     "sauce-tap-runner": "*",
     "sauce-connect-launcher": "git+https://github.com/rvagg/sauce-connect-launcher.git#patch-1",
-    "wd-tap": "git+https://github.com/rvagg/wd-tap.git#patch-1",
+    "wd-tap": "*",
     "request": "~2.27.0",
     "xtend": "~2.1.1",
     "browserify": "~2.32.2"
