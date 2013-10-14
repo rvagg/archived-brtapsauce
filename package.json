@@ -1,6 +1,6 @@
 {
   "name": "brtapsauce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browserify TAP test runner for SauceLabs",
   "main": "brtapsauce.js",
   "bin": {

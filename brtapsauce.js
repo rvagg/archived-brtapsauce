@@ -50,6 +50,7 @@ function brtapsauce (options, callback) {
         return callback(err)
 
       printResults(cap, results)
+      callback()
     })
   }
 
