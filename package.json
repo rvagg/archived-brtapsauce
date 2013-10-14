@@ -1,6 +1,6 @@
 {
   "name": "brtapsauce",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Browserify TAP test runner for SauceLabs",
   "main": "brtapsauce.js",
   "bin": {
@@ -18,11 +18,11 @@
     "url": "https://github.com/rvagg/brtapsauce/issues"
   },
   "dependencies": {
-    "serve-script": "*",
-    "sauce-tap-runner": "*",
+    "serve-script": "~0.0.7",
+    "sauce-tap-runner": "~0.0.7",
     "request": "~2.27.0",
     "xtend": "~2.1.1",
-    "browserify": "~2.32.2"
+    "browserify": "~2.34.1"
   },
   "scripts": {
   },

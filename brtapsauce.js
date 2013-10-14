@@ -1,7 +1,6 @@
 const Runner       = require('sauce-tap-runner')
     , browserify   = require('browserify')
     , xtend        = require('xtend')
-    , passedStatus = require('./set-passed-status')
 
 function brtapsauce (options, callback) {
   if (!options)
@@ -51,7 +50,6 @@ function brtapsauce (options, callback) {
         return callback(err)
 
       printResults(cap, results)
-      passedStatus(options.user, options.key, results.ok, callback)
     })
   }
 
