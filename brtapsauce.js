@@ -30,7 +30,7 @@ function brtapsauce (options, callback) {
 
     run(cap, function (err) {
       if (err)
-        return closeTests(err)
+        console.log(err);
 
       if (++i == options.capabilities.length)
         return closeTests()
