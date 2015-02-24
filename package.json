@@ -21,7 +21,7 @@
     "serve-script": "~0.1.1",
     "sauce-tap-runner": "~0.1.2",
     "xtend": "~2.1.2",
-    "browserify": "~3.19.1"
+    "browserify": "^9.0.3"
   },
   "scripts": {},
   "keywords": [
