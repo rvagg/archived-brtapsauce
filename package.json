@@ -18,10 +18,10 @@
     "url": "https://github.com/rvagg/brtapsauce/issues"
   },
   "dependencies": {
-    "serve-script": "~0.1.1",
+    "browserify": "~9.0.3",
     "sauce-tap-runner": "~0.1.2",
-    "xtend": "~2.1.2",
-    "browserify": "~3.19.1"
+    "serve-script": "~0.1.1",
+    "xtend": "~4.0.0"
   },
   "scripts": {},
   "keywords": [
